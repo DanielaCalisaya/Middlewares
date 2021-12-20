@@ -9,6 +9,6 @@ rutas de nuestro proyecto, como un log para identificar a qué rutas se accedier
 Además, vamos a ver cómo podemos codificar un middleware para restringir el ingreso a
 una determinada URL.
 
-## Clases...
+## Clase 66
 
 ## Ubicación -> Programación/TRABAJOS PRACTICOS/Middlewares
