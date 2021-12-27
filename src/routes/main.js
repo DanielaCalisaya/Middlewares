@@ -1,9 +1,12 @@
 let express = require('express');
 let router = express.Router();
-let controller = require('../controllers/mainController')
-
-router.get('/', controller.index)
-
+let controller = require('../controllers/mainController');
+let userAdmin = require('../middlewares/adminUsers')
 
 
-module.export = router;
+router.get('/', controller.index);
+router.get('/admin', userAdmin, controller.admin); 
+
+
+
+module.exports = router;
